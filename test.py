@@ -1,1 +1,3 @@
-new=5;
+new = 5
+
+print(new)
