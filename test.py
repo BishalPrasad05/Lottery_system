@@ -9,6 +9,12 @@
 # for i in range(100):
 #     print("a", end="")
 
-a=5
-b="5"
-print(a+b)
+# Implicit conversion of string to integer
+num_str = "10"
+num_int = 5
+
+# Adding a string and an integer
+result = num_str + num_int
+
+# Output the result
+print(result)
