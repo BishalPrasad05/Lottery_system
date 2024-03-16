@@ -19,11 +19,18 @@
 # while (a==5):
 #     print("Hello")
 
-a=[1,2,3,4,5]
-i=0
-while(i<2):
-    a=a+a
-    print(a)
-    i+=1
+# a=[1,2,3,4,5]
+# i=0
+# while(i<2):
+#     a=a+a
+#     print(a)
+#     i+=1
 
 # how many times the a will be created in the memory
+
+for i in "hello":
+         print(i)
+
+
+
+
