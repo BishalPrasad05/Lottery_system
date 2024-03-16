@@ -1,3 +1,4 @@
-new = 5
+import asyncio
 
-print(new)
+async def hello():
+    print('Hello, world!')
