@@ -9,5 +9,6 @@
 # for i in range(100):
 #     print("a", end="")
 
-a=5+'5'
-print(a)
+a=5
+b="5"
+print(a+b)
