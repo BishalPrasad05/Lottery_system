@@ -6,5 +6,7 @@
 # a = [input("Enter the value :") for i in range(10)]
 # print(a)
 
-for i in range(100):
-    print("a", end="")
+# for i in range(100):
+#     print("a", end="")
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa=5
+print(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
