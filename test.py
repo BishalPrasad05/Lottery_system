@@ -10,11 +10,7 @@
 #     print("a", end="")
 
 # Implicit conversion of string to integer
-num_str = 1.9
-num_int = 5
 
-# Adding a string and an integer
-result = num_str + num_int
 
-# Output the result
-print(result)
+def pr():
+    print("Hello")
