@@ -12,9 +12,16 @@
 # Implicit conversion of string to integer
 
 
-def pr():
-    print("Hello")
+# def pr():
+#     print("Hello")
 
 
-while (a==5):
-    print("Hello")
+# while (a==5):
+#     print("Hello")
+
+a=[1,2,3,4,5]
+while(True):
+    a=a+a
+    print(a)
+
+# how many times the a will be created in the memory
