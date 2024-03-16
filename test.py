@@ -28,8 +28,9 @@
 
 # how many times the a will be created in the memory
 
-for i in "hello":
-         print(i)
+for i in list(range(10)):
+    print(i)
+
 
 
 
