@@ -24,5 +24,6 @@ i=0
 while(i<10):
     a=a+a
     print(a)
+    i+=1
 
 # how many times the a will be created in the memory
