@@ -1,11 +1,13 @@
 import asyncio
+import time
 
 
-async def hello():
+def hello():
     print('Hello, world!')
-    await asyncio.sleep(5)
+    time.sleep(5)
     print('Hello, again!')
 
+
 print('Start')
-asyncio.run(hello())
+hello()
 print('End')
