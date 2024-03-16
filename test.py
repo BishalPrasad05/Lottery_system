@@ -5,3 +5,4 @@ a=[range(10)]
 
 a=[input("Enter the value :") for i in range(10)]
 print(a)
+
