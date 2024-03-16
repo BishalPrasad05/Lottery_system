@@ -20,7 +20,8 @@
 #     print("Hello")
 
 a=[1,2,3,4,5]
-while(True):
+i=0
+while(i<10):
     a=a+a
     print(a)
 
