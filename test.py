@@ -10,7 +10,7 @@
 #     print("a", end="")
 
 # Implicit conversion of string to integer
-num_str = "10"
+num_str = 1.9
 num_int = 5
 
 # Adding a string and an integer
