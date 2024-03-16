@@ -14,3 +14,7 @@
 
 def pr():
     print("Hello")
+
+
+while (0):
+    print("Hello")
