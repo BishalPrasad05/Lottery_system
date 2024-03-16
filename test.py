@@ -9,5 +9,5 @@
 # for i in range(100):
 #     print("a", end="")
 
-a=5+"5"
+a=5+'5'
 print(a)
