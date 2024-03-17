@@ -51,3 +51,11 @@ a = 5
 
 
 # print(a)
+
+def p(b):
+    b[0] = 6
+    print(b)
+
+a=(1,2,3,4,5)
+p(a)
+print(a)
