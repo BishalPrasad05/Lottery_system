@@ -13,13 +13,14 @@
 
 # a=99
 def pr():
+    def pr1():
+        print(a)
     print(a)
     print("Hello")
+    pr1()
 
-
+a=50
 pr()
-
-a=99
 
 # while (a==5):
 #     print("Hello")
