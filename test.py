@@ -11,13 +11,13 @@
 
 # Implicit conversion of string to integer
 
-a=99
+# a=99
 def pr():
     print(a)
     print("Hello")
 
-
-pr
+a=5
+pr()
 
 # while (a==5):
 #     print("Hello")
