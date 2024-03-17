@@ -13,6 +13,7 @@
 
 
 def pr():
+    print(a)
     print("Hello")
 
 
@@ -32,5 +33,5 @@ print(pr())
 
 # for i in list(range(10)):
 #     print(i)
-
+a=5
 print(range(1,5))
