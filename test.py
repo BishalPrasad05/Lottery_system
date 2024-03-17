@@ -16,8 +16,10 @@ def pr():
     print(a)
     print("Hello")
 
-a=50
+
 pr()
+
+a=99
 
 # while (a==5):
 #     print("Hello")
