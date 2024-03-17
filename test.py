@@ -12,15 +12,15 @@
 # Implicit conversion of string to integer
 
 # a=99
-def pr():
-    def pr1():
-        print(a)
-    print(a)
-    print("Hello")
-    pr1()
+# def pr():
+#     def pr1():
+#         print(a)
+#     print(a)
+#     print("Hello")
+#     pr1()
 
-a=50
-pr()
+# a=50
+# pr()
 
 # while (a==5):
 #     print("Hello")
