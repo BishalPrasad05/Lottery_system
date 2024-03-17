@@ -13,7 +13,7 @@
 
 
 def pr():
-    print(a)
+    # print(a)
     print("Hello")
 
 
@@ -33,5 +33,18 @@ print(pr())
 
 # for i in list(range(10)):
 #     print(i)
-a=5
-print(range(1,5))
+a = 5
+print(range(1, 5))
+
+
+if (True):
+    print("one")
+    if (True):
+        a=6
+        print("two")
+        if (True):
+            print(a)
+            print("three")
+
+
+print(a)
