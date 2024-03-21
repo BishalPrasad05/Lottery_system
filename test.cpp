@@ -13,9 +13,12 @@ void merge(int arr[], int start, int mid, int end)
     int first = start, second = mid + 1;
     int k = start;
 
-    while (first <= start || second <= end)
+    while (first <= mid || second <= end)
     {
-
+        if (arr[first]<arr[second])
+        {
+            
+        }
     }
     printArray(arr, start, end);
 }
