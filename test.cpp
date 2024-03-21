@@ -17,7 +17,7 @@ void merge(int arr[], int start, int mid, int end)
     // {
 
     // }
-    printArray(sortArray, start, end);
+    printArray(arr, start, end);
 }
 
 void mergeSort(int arr[], int start, int end)
