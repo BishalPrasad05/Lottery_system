@@ -6,15 +6,15 @@ void printArray(int arr[], int start, int end);
 
 int sortArray[7];
 
-void merge(int arr[],int start,int mid, int end)
+void merge(int arr[], int start, int mid, int end)
 {
     // int arr1[mid + 1];
     // int arr2[(end - mid) + 1];
     int first = start, second = mid + 1;
 
-    while(first<=start || second<=end)
+    while (first <= start || second <= end)
     {
-        if(arr[first]>arr[second])
+        if (arr[first] > arr[second])
         {
             sortArray[first] = arr[first];
             first++;
@@ -25,7 +25,6 @@ void merge(int arr[],int start,int mid, int end)
             second++;
         }
     }
-    
 }
 
 void mergeSort(int arr[], int start, int end)
@@ -54,6 +53,8 @@ int main()
 {
     int arr[7] = {9, 5, 3, 7, 6, 1, 2};
     mergeSort(arr, 0, 6);
+
+    printArray(sortArray, 0, 6);
 
     return 0;
 }
