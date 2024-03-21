@@ -13,22 +13,22 @@ void merge(int arr[], int start, int mid, int end)
     int first = start, second = mid + 1;
     int k = start;
 
-    while (first <= mid)
-    {
-        if (arr[first] < arr[second])
-        {
-            sortArray[k] = arr[first];
-            first++;
-            k++;
-        }
-        else
-        {
-            sortArray[k] = arr[second];
-            second++;
-            k++;
-        }
-    }
-    printArray(sortArray, start, end);
+    // while (first <= mid)
+    // {
+    //     if (arr[first] < arr[second])
+    //     {
+    //         sortArray[k] = arr[first];
+    //         first++;
+    //         k++;
+    //     }
+    //     else
+    //     {
+    //         sortArray[k] = arr[second];
+    //         second++;
+    //         k++;
+    //     }
+    // }
+    printArray(arr, start, end);
 }
 
 void mergeSort(int arr[], int start, int end)
