@@ -28,7 +28,7 @@ void merge(int arr[], int start, int mid, int end)
             k++;
         }
     }
-    printArray(arr, start, end);
+    printArray(sortArray, start, end);
 }
 
 void mergeSort(int arr[], int start, int end)
@@ -59,7 +59,7 @@ int main()
     int arr[7] = {9, 5, 3, 7, 6, 1, 2};
     mergeSort(arr, 0, 6);
 
-    printArray(sortArray, 0, 6);
+    // printArray(sortArray, 0, 6);
 
     return 0;
 }
