@@ -8,9 +8,16 @@ int sortArray[7];
 
 void merge(int arr[],int start,int mid, int end)
 {
-    int arr1[mid + 1];
-    int arr2[(end - mid) + 1];
-    
+    // int arr1[mid + 1];
+    // int arr2[(end - mid) + 1];
+    int first = start, second = mid + 1;
+    while (first<=mid || second<=end)
+    {
+        if(arr[first]>arr[second])
+        {
+            
+        }
+    }
 }
 
 void mergeSort(int arr[], int start, int end)
