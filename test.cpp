@@ -25,11 +25,12 @@ void merge(int arr[], int start, int mid, int end)
             second++;
         }
     }
+    printArray(sortArray, 0, 6);
 }
 
 void mergeSort(int arr[], int start, int end)
 {
-    printArray(arr, start, end);
+    // printArray(arr, start, end);
     if (start >= end)
     {
         return;
@@ -38,6 +39,7 @@ void mergeSort(int arr[], int start, int end)
     int mid = (start + end) / 2;
     mergeSort(arr, start, mid);
     mergeSort(arr, mid + 1, end);
+    merge(arr, start, mid, end);
 }
 
 void printArray(int arr[], int start, int end)
