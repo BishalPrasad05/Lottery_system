@@ -6,14 +6,14 @@ void printArray(int arr[], int start, int end);
 
 void mergeSort(int arr[], int start, int end)
 {
-    if (start > end)
+    if (start >= end)
     {
         return;
     }
     printArray(arr, start, end);
     int mid = (start + end) / 2;
     mergeSort(arr, start, mid);
-    // mergeSort(arr, mid + 1, end);
+    mergeSort(arr, mid + 1, end);
 }
 
 void printArray(int arr[], int start, int end)
