@@ -16,7 +16,8 @@ void merge(int arr[],int start,int mid, int end)
     {
         if(arr[first]>arr[second])
         {
-            
+            sortArray[first] = arr[first];
+            first++;
         }
     }
     
