@@ -15,18 +15,7 @@ void merge(int arr[], int start, int mid, int end)
 
     while (first <= start || second <= end)
     {
-        if (arr[first] > arr[second])
-        {
-            sortArray[k] = arr[second];
-            second++;
-            k++;
-        }
-        else
-        {
-            sortArray[k] = arr[first];
-            first++;
-            k++;
-        }
+        
     }
     printArray(sortArray, 0, 6);
 }
