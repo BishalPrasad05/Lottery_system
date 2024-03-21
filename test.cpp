@@ -11,7 +11,7 @@ void mergeSort(int arr[], int start, int end)
         return;
     }
     printArray(arr, start, end);
-    int mid = start + (start + end) / 2;
+    int mid = (start + end) / 2;
     mergeSort(arr, start, mid);
     mergeSort(arr, mid + 1, end);
 }
