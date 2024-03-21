@@ -17,13 +17,13 @@ void merge(int arr[], int start, int mid, int end)
     {
         if (arr[first] > arr[second])
         {
-            sortArray[k] = arr[first];
-            first++;
+            sortArray[k] = arr[second];
+            k++;
         }
         else
         {
-            sortArray[second] = arr[second];
-            second++;
+            sortArray[k] = arr[first];
+            k++;
         }
     }
     printArray(sortArray, 0, 6);
