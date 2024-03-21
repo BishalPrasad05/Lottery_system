@@ -13,11 +13,11 @@ void merge(int arr[], int start, int mid, int end)
     int first = start, second = mid + 1;
     int k = start;
 
-    while (first <= start || second <= end)
-    {
-        
-    }
-    printArray(sortArray, 0, 6);
+    // while (first <= start || second <= end)
+    // {
+
+    // }
+    printArray(sortArray, start, end);
 }
 
 void mergeSort(int arr[], int start, int end)
