@@ -27,7 +27,7 @@ void merge(int arr[], int start, int mid, int end)
 
     for (int i = 0; i < size2; i++)
     {
-        arr2[i] = arr[size2 + i];
+        arr2[i] = arr[size2 + i-1];
     }
 
     // printArray(arr1, 0, size1);
