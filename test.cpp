@@ -19,13 +19,19 @@ void merge(int arr[], int start, int mid, int end)
         arr1[i] = arr[size1 + i];
     }
 
+    for (auto var : arr1)
+    {
+        cout << var << " ";
+    }
+    cout << endl;
+
     for (int i = 0; i < size2; i++)
     {
         arr2[i] = arr[size2 + i];
     }
 
-    printArray(arr1, 0, size1);
-    cout << "The size =" << size1 << endl;
+    // printArray(arr1, 0, size1);
+    // cout << "The size =" << size1 << endl;
 }
 
 void mergeSort(int arr[], int start, int end)
