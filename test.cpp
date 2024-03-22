@@ -24,7 +24,7 @@ void merge(int arr[], int start, int mid, int end)
         arr2[i] = arr[size2 + i];
     }
 
-    printArray(arr1, 0, size1);
+    printArray(arr1, 0, size1 - 1);
 }
 
 void mergeSort(int arr[], int start, int end)
