@@ -16,7 +16,7 @@ void merge(int arr[], int start, int mid, int end)
 
     for (int i = 0; i < size1; i++)
     {
-        arr1[i] = arr[size1 + i];
+        arr1[i] = arr[size1 + i-1];
     }
 
     for (auto var : arr2)
