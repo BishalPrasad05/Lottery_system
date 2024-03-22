@@ -14,21 +14,21 @@ void merge(int arr[], int start, int mid, int end)
     int arr1[size1];
     int arr2[size2];
 
-    for (int i = 0; i < size1; i++)
-    {
-        arr1[i] = arr[size1 + i];
-    }
+    // for (int i = 0; i < size1; i++)
+    // {
+    //     arr1[i] = arr[size1 + i];
+    // }
 
-    for (auto var : arr1)
+    for (auto var : arr2)
     {
         cout << var << " ";
     }
     cout << endl;
 
-    for (int i = 0; i < size2; i++)
-    {
-        arr2[i] = arr[size2 + i + 1];
-    }
+    // for (int i = 0; i < size2; i++)
+    // {
+    //     arr2[i] = arr[size2 + i + 1];
+    // }
 
     // printArray(arr1, 0, size1);
     // cout << "The size =" << size1 << endl;
