@@ -19,7 +19,7 @@ void merge(int arr[], int start, int mid, int end)
         arr1[i] = arr[size1 + i];
     }
 
-    for (auto var : arr1)
+    for (auto var : arr2)
     {
         cout << var << " ";
     }
