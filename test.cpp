@@ -8,27 +8,23 @@ int sortArray[7];
 
 void merge(int arr[], int start, int mid, int end)
 {
-    // int arr1[mid + 1];
-    // int arr2[(end - mid) + 1];
-    int first = start, second = mid + 1;
-    int k = start;
+    int size1 = (mid - start) + 1;
+    int size2 = end - start;
 
-    // while (first <= mid)
-    // {
-    //     if (arr[first] < arr[second])
-    //     {
-    //         sortArray[k] = arr[first];
-    //         first++;
-    //         k++;
-    //     }
-    //     else
-    //     {
-    //         sortArray[k] = arr[second];
-    //         second++;
-    //         k++;
-    //     }
-    // }
-    printArray(arr, start, end);
+    int arr1[size1];
+    int arr2[size2];
+
+    for (int i = 0; i < size1; i++)
+    {
+        arr1[i] = arr[size1 + i];
+    }
+
+    for (int i = 0; i < size2; i++)
+    {
+        arr2[i] = arr[size2 + i];
+    }
+
+    printArray(arr1, start, end);
 }
 
 void mergeSort(int arr[], int start, int end)
