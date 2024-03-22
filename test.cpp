@@ -8,7 +8,7 @@ int sortArray[7];
 
 void merge(int arr[], int start, int mid, int end)
 {
-    int size1 = (mid - start) + 1;
+    int size1 = mid - start + 1;
     int size2 = end - start;
 
     int arr1[size1];
@@ -25,6 +25,7 @@ void merge(int arr[], int start, int mid, int end)
     }
 
     printArray(arr1, 0, size1 - 1);
+    
 }
 
 void mergeSort(int arr[], int start, int end)
