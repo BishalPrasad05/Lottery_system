@@ -44,7 +44,7 @@ void mergeSort(int arr[], int start, int end)
 
 void printArray(int arr[], int start, int end)
 {
-    for (int i = start; i <= end; i++)
+    for (int i = start; i < end; i++)
     {
         cout << arr[i] << " ";
     }
