@@ -36,6 +36,7 @@
 
 # for i in list(range(10)):
 #     print(i)
+from math import ceil, floor
 a = 5
 # print(range(1, 5))
 
@@ -67,4 +68,5 @@ Thank you'''
 b = "Hello how are you\
     I am fine\
     Thank you"
-print(b)
+
+print(floor(5.0001))
