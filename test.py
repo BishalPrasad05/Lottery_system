@@ -64,4 +64,7 @@ print(a)
 a = '''Hello how are you
 I am fine
 Thank you'''
-print(a)
+b = "Hello how are you\
+    I am fine\
+    Thank you"
+print(b)
